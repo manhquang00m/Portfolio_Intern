@@ -2,7 +2,6 @@ import React from 'react'
 import DanhSachCuoc from './DanhSachCuoc'
 import DanhSachXucXac from './DanhSachXucXac'
 import DiemCuoc from './DiemCuoc'
-
 import XucXacItem from './assets/css/XucXacItem.css'
 
 export default function BaiTapGameBauCua() {

@@ -1,10 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom'
-import BaiTapChonKinh from '../react_cyberlearn_1/baiTapChonKinh/BaiTapChonKinh'
-import BaiTapChonXe from '../react_cyberlearn_1/baiTapChonXe/BaiTapChonXe'
-import RenderMovie from '../react_cyberlearn_1/renderMovie/RenderMovie'
-import DatVeXemFilm from '../react-cyberlearn_2/datVeXemFilm/DatVeXemFilm'
-import XucXacRedux from '../react-cyberlearn_2/xucXacRedux/XucXacRedux';
+import { Link } from 'react-router-dom'
 
 
 import './style.css'
@@ -20,7 +15,7 @@ function Project(props) {
                     <div className='row mt-5'>
                         <div className='col-6 pb-5 pr-5' >
                             <div className='projectItem'>
-                                <img src="./ProjectImg/bauCua.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./Portfolio_Intern/ProjectImg/bauCua.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Bầu Cua Tôm Cá</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -38,7 +33,7 @@ function Project(props) {
                         </div>
                         <div className='col-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./ProjectImg/taiXiu.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./Portfolio_Intern/ProjectImg/taiXiu.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Game Tài Xỉu</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -50,13 +45,13 @@ function Project(props) {
                                     <a href="" className='col-2'>
                                         <i class="fa-solid fa-code"></i>
                                     </a>
-                                    <Link target="_blank" to="/BaiTapGameBauCua" className='col-9'>Live View</Link>
+                                    <Link target="_blank" to="/taixiu" className='col-9'>Live View</Link>
                                 </div>
                             </div>
                         </div>
                         <div className='col-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./ProjectImg/renderMovie.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./Portfolio_Intern/ProjectImg/renderMovie.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Render Movie</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -74,7 +69,7 @@ function Project(props) {
                         </div>
                         <div className='col-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./ProjectImg/datVeXemFilm.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./Portfolio_Intern/ProjectImg/datVeXemFilm.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Đặt Vé Xem Film</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -92,7 +87,7 @@ function Project(props) {
                         </div>
                         <div className='col-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./ProjectImg/todolist2.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./Portfolio_Intern/ProjectImg/todolist2.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Todolist</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>

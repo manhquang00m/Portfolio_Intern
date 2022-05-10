@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 function Portfolio(props) {
     return (
-        <div style={{ backgroundColor: '#f3f3f3', height: '100vh' }} >
+        <div style={{ backgroundColor: '#f3f3f3', height: '120vh' }} >
             <div className="container-fuild portfolio">
                 <div className='navbar'>
                     <div className='myname'>
@@ -11,9 +11,9 @@ function Portfolio(props) {
                     </div>
                     <button className='btn btn-cv'>Download CV</button>
                 </div>
-                <div className='row justify-content-center' style={{ margin: '200px 0' }}>
+                <div className='row justify-content-center' style={{ margin: '100px 0' }}>
                     <div className='col-4'>
-                        <img src="./ProjectImg/avt.JPG" className='avatar rounded-circle border border-2' alt="" />
+                        <img src="./Portfolio_Intern/ProjectImg/avt.JPG" className='avatar rounded-circle border border-2' alt="" />
                     </div>
                     <div className='col-4 text-wrap'>
                         <h1>Hello</h1>

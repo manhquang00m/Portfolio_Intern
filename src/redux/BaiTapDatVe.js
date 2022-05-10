@@ -21,14 +21,13 @@ const BaiTapDatFilm = (state = stateVeFilm, action) => {
             let VeFilmUpdate = { ...state.VeFilm }
             let string = action.soGhe.split("", 1)
 
-            action.listGhe.map((item, index) => {
+            action.listGhe.map((item) => {
                 if (item.hang === string[0]) {
                     item.danhSachGhe.map((ghe) => {
                         if (ghe.soGhe === action.soGhe) {
                             ghe.daDat = false
                         }
                     })
-
                 }
             })
 
@@ -37,8 +36,8 @@ const BaiTapDatFilm = (state = stateVeFilm, action) => {
             state.VeFilm = VeFilmUpdate
             return { ...state }
         }
+        default: return { ...state }
     }
-    return { ...state }
 }
 
 export default BaiTapDatFilm

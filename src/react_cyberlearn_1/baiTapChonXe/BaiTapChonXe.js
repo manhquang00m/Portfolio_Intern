@@ -167,7 +167,7 @@ function BaiTapChonXe(props) {
                                         <li key={index} className="list-group-item" style={{ cursor: 'pointer' }} onClick={() => handleCar(car)} >
                                             <div className='row'>
                                                 <div className='col-2'>
-                                                    <img style={{ width: "100%" }} src={car.img} />
+                                                    <img alt="" style={{ width: "100%" }} src={car.img} />
                                                 </div>
                                                 <div style={{ display: 'inline' }} className='col-10'>
                                                     <h5>{car.title}</h5>

@@ -33,9 +33,8 @@ const BaiTapXucXacReducer = (state = stateXucXac, action) => {
 
             return { ...state }
         }
+        default: return { ...state }
     }
-
-    return { ...state }
 }
 
 export default BaiTapXucXacReducer
