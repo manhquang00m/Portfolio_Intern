@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500;1,600&display=swap');
+
+.project {
+    font-family: 'Work Sans', sans-serif;
+}
+
+ /* =======Portfolio========= */
+
+ .portfolio {
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.myname {
+  display: flex;
+  align-items: baseline;
+}
+
+
+.myname h3 {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.btn-cv {
+    border: 1px solid rgb(30, 30, 30);
+}
+
+.btn-cv:hover {
+    color: #eea302;
+    transition: linear .3s;
+}
+
+.avatar {
+    width: 416px;
+    height: 416px;
+}
+
+.group-btn {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.group-btn-child {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.group-btn-child:nth-child(1) {
+    background-color: #eea302;
+    margin-right: 20px;
+}
+
+.group-btn-child:nth-child(2) {
+    background-color: #ff3b25;
+}
+
+.group-btn-child:hover {
+    background-color: transparent;
+    transition: linear .3s;
+}
+
+.text-wrap h1{
+    font-size: 100px;
+}
+
+.icon-wrap a i {
+    font-size: 20px;
+    color: #333;
+    margin-right: 6px;
+}
+
+.infor {
+    padding-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+.projectItem {
+    background-color: white;
+    padding: 16px 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.projectItem h3{
+    margin: 8px 0;
+}
+
+.tool{
+    font-size: 14px;
+    padding: 3px 7px;
+    margin-right: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+.projectItem p{
+    color: #7C8594;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.btnProject {
+    padding: 20px;
+}
+
+.btnProject a:hover{
+    background-color: #333 !important;
+    transition: ease-in-out .5s;
+}
+
+.btnProject a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 12px ;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.btnProject a:nth-child(1){
+    background-color: #b9bbbe;
+}
+
+.btnProject a:nth-child(2){
+    background-color: #FF923E;
+    margin-left: 24px;
+
+}

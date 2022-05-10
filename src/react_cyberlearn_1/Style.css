@@ -1,0 +1,114 @@
+
+.background {
+    min-height: 2000px;
+    background: url(../../public/carbasic/avanger.jpg)  repeat fixed ;
+    background-size: 50%;
+  }
+  
+  
+  .bg-movie {
+    background: rgba(34, 11, 83, 0.7);
+  }
+  
+  .background .bg-movie a {
+    color: #ccc;
+  }
+  
+  .background .bg-movie .navbar-collapse .navbar-nav a {
+    color: #ccc;
+  }
+  
+  .movieDesc {
+    background-color: rgb(0, 132, 255);
+    color: #ccc;
+    padding: 20px;
+  }
+  
+  .movieDesc h3 {
+    font-size: 17px;
+    height: 40px;
+  
+  }
+  
+  .movieDesc p {
+    font-size: 13px;
+    height: 60px;
+  }
+  
+  .movieWrap .row .movieImg {
+    padding: 0 100px;
+  }
+  
+  .movieBorder {
+    border: 1px solid rgb(0, 174, 255);
+    width: 216px;
+    border-radius: 4px;
+  }
+  
+  .movieBorder img{
+    width: 216px;
+    height: 317px;
+  }
+  
+  .glassItem {
+    padding-top: 50px;
+  }
+  
+  .glassItem img{
+    width: 100px;
+    height: 70px;
+    border: 1px solid red;
+    margin-left: 20px;
+  }
+  
+  .glassItem img:hover {
+    cursor: pointer;
+  }
+  
+  .imgModel {
+    position: relative;
+   
+  }
+  
+  .imgGlass {
+    width: 150px;
+    position: absolute;
+    top: 125px;
+    left: 895px;
+  }
+  
+  
+  .cloudimage-360-icons-container {
+      top: 5px;
+        right: 5px;
+  }
+  .cloudimage-360-fullscreen-modal {
+      top: 0;
+        bottom: 0;
+  }
+  .cloudimage-360-magnifier-icon {
+      background: url(https://scaleflex.ultrafast.io/https://scaleflex.airstore.io/filerobot/js-cloudimage-360-view/loupe.svg) 50% 50% / cover no-repeat;
+  }
+  .cloudimage-360-close-fullscreen-icon {
+      background: url(https://scaleflex.ultrafast.io/https://scaleflex.airstore.io/filerobot/js-cloudimage-360-view/cross.svg) 50% 50% / cover no-repeat;
+  }
+  .cloudimage-360-view-360-circle {
+        margin: auto;
+  }
+  .cloudimage-360-loader {
+      margin: auto;
+  }
+  .cloudimage-360-view-360-icon {
+      background: url(hhttps://scaleflex.ultrafast.io/https://scaleflex.airstore.io/filerobot/js-cloudimage-360-view/360_view.svg) 50% 50% / cover no-repeat;
+  }
+  .cloudimage-360-box-shadow {
+      top: 0;
+        left: 0;
+  }
+  .cloudimage-360-img-magnifier-glass {
+      border: 3px solid #000;
+        border-radius: 50%;
+  }
+  
+  
+ 

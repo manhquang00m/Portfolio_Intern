@@ -1,0 +1,34 @@
+/* XucXacRedux */
+
+@font-face {
+    font-family: 'fontGame';
+    src: url('./assets/Pony.ttf');
+}
+.app-game {
+    font-family: 'fontGame';
+
+}
+
+.bg-xucxac {
+    background: url('./assets/bgGame.png')  ;
+    width: 100%;
+    height: 100vh;
+  }
+
+.bg-xucxac-dark {
+    background-color: rgba(0,0,0,.1) ;
+    width: 100%;
+    height: 100%;
+}
+
+.heading-1 {
+    margin: 50px 0;
+    font-size: 70px;
+}
+
+.btn-game {
+    padding: 60px;
+    font-size: 50px;
+    border: 4px solid rgb(75, 231, 75);
+    border-radius: 10px;
+}
