@@ -1,0 +1,30 @@
+@media only screen and (max-width: 46.1875em) {
+  .myname {
+    flex-direction: column;
+  }
+
+  .myname h3{
+    margin-left: 0 !important;
+  }
+  .reverse-col {
+    flex-direction: column-reverse;
+  }
+
+  .background-portfolio {
+    height: 145vh !important;
+ }
+}
+
+
+/* Tablet: width >= 740px and width < 1024px */
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+   
+}
+
+
+/* Mobile + tablet */
+
+@media only screen and (max-width: 63.9375em) {
+   
+}

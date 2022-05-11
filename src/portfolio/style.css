@@ -6,6 +6,10 @@
 
  /* =======Portfolio========= */
 
+ .background-portfolio {
+    height: 100vh;
+ }
+
  .portfolio {
     font-family: 'Work Sans', sans-serif;
     padding-left: 60px;
@@ -34,19 +38,19 @@
 }
 
 .avatar {
-    width: 416px;
-    height: 416px;
+    width: 100%;
+    height: 100%;
 }
 
 .group-btn {
-    margin-top: 100px;
+    margin: 50px 0;
     text-align: center;
 }
 
 .group-btn-child {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 30px;
+    padding: 30px 10px;
     border: 1px solid black;
     border-radius: 100%;
 }
@@ -58,11 +62,19 @@
 
 .group-btn-child:nth-child(2) {
     background-color: #ff3b25;
+    margin-right: 20px;
+}
+
+.group-btn-child:nth-child(3) {
+    background-color: #80d8da;
+    margin-right: 20px;
 }
 
 .group-btn-child:hover {
     background-color: transparent;
     transition: linear .3s;
+    color: rgb(0, 0, 0);
+
 }
 
 .text-wrap h1{
@@ -130,5 +142,5 @@
 .btnProject a:nth-child(2){
     background-color: #FF923E;
     margin-left: 24px;
-
 }
+

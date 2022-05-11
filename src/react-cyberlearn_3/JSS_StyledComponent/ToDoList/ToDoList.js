@@ -51,7 +51,7 @@ function ToDoList(props) {
         <ThemeProvider theme={props.themeTDL}>
             <div className='mt-5 container'>
                 <div className='row'>
-                    <Container className='col-lg-8 col-md-10 col-sm-10'>
+                    <Container className='col-lg-8 col-md-10 col-12'>
                         <Dropdown onChange={(event) => props.dispatch(changeThemeAction(event.target.value))}>
                             <option value="0" >DarkTheme</option>
                             <option value="1" >LightTheme</option>

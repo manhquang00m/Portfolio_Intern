@@ -13,9 +13,9 @@ function Project(props) {
                     <h1 className='pt-5' style={{ fontSize: '50px', fontWeight: 'bold' }}>Some things <br />
                         I've worked on</h1>
                     <div className='row mt-5'>
-                        <div className='col-6 pb-5 pr-5' >
+                        <div className='col-12 col-md-6 pb-5 pr-5' >
                             <div className='projectItem'>
-                                <img src="./Portfolio_Intern/ProjectImg/bauCua.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./ProjectImg/bauCua.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Bầu Cua Tôm Cá</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -31,9 +31,9 @@ function Project(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6 pb-5' >
+                        <div className='col-12 col-md-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./Portfolio_Intern/ProjectImg/taiXiu.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./ProjectImg/taiXiu.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Game Tài Xỉu</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -49,9 +49,9 @@ function Project(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6 pb-5' >
+                        <div className='col-12 col-md-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./Portfolio_Intern/ProjectImg/renderMovie.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./ProjectImg/renderMovie.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Render Movie</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -67,9 +67,9 @@ function Project(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6 pb-5' >
+                        <div className='col-12 col-md-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./Portfolio_Intern/ProjectImg/datVeXemFilm.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./ProjectImg/datVeXemFilm.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Đặt Vé Xem Film</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
@@ -85,9 +85,9 @@ function Project(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6 pb-5' >
+                        <div className='col-12 col-md-6 pb-5' >
                             <div className='projectItem'>
-                                <img src="./Portfolio_Intern/ProjectImg/todolist2.png" alt="" style={{ width: '100%', height: '290px' }} />
+                                <img src="./ProjectImg/todolist2.png" alt="" style={{ width: '100%', height: '290px' }} />
                                 <h3>Todolist</h3>
                                 <div className='tools'>
                                     <span className='tool' style={{ background: '#21BAEB' }}>ReactJS</span>
