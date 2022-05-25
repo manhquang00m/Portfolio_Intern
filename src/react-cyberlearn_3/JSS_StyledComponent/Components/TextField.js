@@ -18,13 +18,14 @@ export const Label = styled.span`
 `
 
 
-export const TextField = ({ label, add, val }) => {
+export const TextField = ({ add, val }) => {
     return <span>
-        <Label>
+        {/* <Label>
             {label}
-        </Label>
+        </Label> */}
         <br />
         <Input
+            placeholder='Enter your task ...'
             value={val}
             onChange={(event) => { add(event) }}
         />

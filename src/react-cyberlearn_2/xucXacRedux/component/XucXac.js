@@ -8,7 +8,7 @@ function XucXac(props) {
             {
                 arrRandom.map((item, index) => {
                     return (
-                        <img key={index} style={{ width: '50px', height: '50px' }} src={require('../assets/img/' + `${item}` + '.png')} alt="" />
+                        <img key={index} className="img-xucxac" src={require('../assets/img/' + `${item}` + '.png')} alt="" />
                     )
                 })
             }

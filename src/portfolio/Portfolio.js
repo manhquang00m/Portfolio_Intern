@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './style.css'
 import './responsive/portfolio.css'
 
 function Portfolio(props) {
@@ -11,10 +12,10 @@ function Portfolio(props) {
                         <h3>Vu Manh Quang</h3>
                         <p>Front-end Developer</p>
                     </div>
-                    <button className='btn btn-cv'>Download CV</button>
+                    <a href='https://drive.google.com/file/d/1HGuT53F8WKK4LcT3hEBRKW4445sdxZ8f/view?usp=sharing' target="_blank" className='btn btn-cv'>Download CV</a>
                 </div>
-                <div className='row reverse-col justify-content-center' style={{ margin: '70px 0' }}>
-                    <div className='col-12 col-lg-4 col-md-9'>
+                <div className='row reverse-col justify-content-center' style={{ margin: '120px 0' }}>
+                    <div className='col-12 col-lg-4 col-md-9 text-center'>
                         <img src="./ProjectImg/avt.JPG" className='avatar rounded-circle border border-2' alt="" />
                     </div>
                     <div className='col-12 col-lg-4 text-wrap'>
@@ -24,7 +25,7 @@ function Portfolio(props) {
                         <div className='group-btn'>
                             <Link className='group-btn-child' to='/resume'>Resume</Link>
                             <Link className='group-btn-child' to='/project'>Projects</Link>
-                            <Link className='group-btn-child' to='/project'>Contact</Link>
+                            <Link className='group-btn-child' to='/contact'>Contact</Link>
                         </div>
                     </div>
                 </div>
@@ -35,7 +36,7 @@ function Portfolio(props) {
                     </div>
                     <div className="col-12 col-lg-3">
                         <h3>Email</h3>
-                        <p>vumanhquang</p>
+                        <p>vumanhquang36@gmail.com</p>
                     </div>
                     <div className="col-12 col-lg-3">
                         <h3>Follow Me</h3>

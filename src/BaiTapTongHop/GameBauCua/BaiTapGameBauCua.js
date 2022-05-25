@@ -9,11 +9,11 @@ export default function BaiTapGameBauCua() {
         <div id='baiTapBauCua'>
             <div className='container'>
                 <DiemCuoc />
-                <div className='row mt-5 pb-5'>
+                <div className='row mt-5 pb-5 game'>
                     <div className='col-8'>
                         <DanhSachCuoc />
                     </div>
-                    <div className='col-4 dsXucXac'>
+                    <div className='col-8 col-lg-4 dsXucXac'>
                         <DanhSachXucXac />
                     </div>
                 </div>

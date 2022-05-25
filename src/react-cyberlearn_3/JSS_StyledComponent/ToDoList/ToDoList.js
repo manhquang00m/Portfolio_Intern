@@ -8,7 +8,7 @@ import { Table, Th, Thead, Tr } from '../Components/Table';
 import { TextField } from '../Components/TextField';
 import { connect } from 'react-redux'
 import { addTaskAction, changeThemeAction, doneTaskAction, deleteTaskAction, editTaskAction, updateTaskAction, inputAction } from '../../../redux/action/ToDoListActions';
-
+import './TDLresponsive.css'
 
 function ToDoList(props) {
 
@@ -58,19 +58,25 @@ function ToDoList(props) {
                             <option value="2" >PrimaryTheme</option>
                         </Dropdown>
                         <Heading3 className='mt-2'>To do List</Heading3>
-                        <TextField label="Task Name" add={addInput} val={props.input} className="w-50">
-                        </TextField>
-                        <Button onClick={() => {
-                            let newTask = {
-                                id: Date.now(),
-                                taskName: props.input,
-                                done: false
-                            }
-                            props.dispatch(addTaskAction(newTask))
-                        }}><i className='fa fa-plus'></i> Add Task</Button>
-                        <Button onClick={() => {
-                            props.dispatch(updateTaskAction(props.input))
-                        }}><i className='fa fa-upload'></i> Update Task</Button>
+                        <div className='d-flex align-items-end inputBtn'>
+                            <TextField add={addInput} val={props.input} className="w-50">
+                            </TextField>
+                            <div className='btn-wrap'>
+                                <Button onClick={() => {
+                                    let newTask = {
+                                        id: Date.now(),
+                                        taskName: props.input,
+                                        done: false
+                                    }
+                                    props.dispatch(addTaskAction(newTask))
+                                }}><i className='fa fa-plus'></i> Add Task</Button>
+                                <Button onClick={() => {
+                                    props.dispatch(updateTaskAction(props.input))
+                                }}><i className='fa fa-upload'></i> Update Task</Button>
+                            </div>
+                        </div>
+
+
                         <hr />
                         <Heading3 className='mt-2'>Task to do</Heading3>
                         <Table>

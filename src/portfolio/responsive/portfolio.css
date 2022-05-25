@@ -4,15 +4,29 @@
   }
 
   .myname h3{
-    margin-left: 0 !important;
+    margin-left: 0 ;
   }
   .reverse-col {
     flex-direction: column-reverse;
+    margin: 60px 0 !important;
   }
 
-  .background-portfolio {
-    height: 145vh !important;
- }
+  .text-wrap h1 {
+    font-size: 80px;
+  }
+
+  .avatar {
+    width: 216px;
+    height: 216px;
+  }
+
+  .group-btn {
+    font-size: 10px ;
+  }
+
+  .group-btn-child {
+    padding: 24px 8px;
+  }
 }
 
 
@@ -26,5 +40,9 @@
 /* Mobile + tablet */
 
 @media only screen and (max-width: 63.9375em) {
-   
+  .background-portfolio {
+    height: 100% ;
+ }
+
+ 
 }

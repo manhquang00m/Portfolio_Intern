@@ -23,7 +23,7 @@
 
 .heading-1 {
     padding: 50px 0;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .btn-game {
@@ -32,3 +32,21 @@
     border: 4px solid rgb(75, 231, 75);
     border-radius: 10px;
 }
+
+.img-xucxac {
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .btn-game {
+        padding: 10px;
+        font-size: 24px;
+    }
+    .img-xucxac {
+        width: 32px;
+        height: 32px;
+    }
+    
+  }
+  

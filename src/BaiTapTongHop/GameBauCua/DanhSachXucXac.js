@@ -12,22 +12,24 @@ export default function DanhSachXucXac() {
         dispatch(action)
     }
     return (
-        <div>
-            <div className='row text-center  rounded-circle circle rounded-3'>
-                <div className='col-12 pb-3'>
-                    <XucXac xucXac={xucXac[0].url} />
+        <div className='row text-center'>
+            <div className='col-12'>
+                <div className='row rounded-circle circle rounded-3'>
+                    <div className='col-12 pb-3'>
+                        <XucXac xucXac={xucXac[0].url} />
+                    </div>
+                    <div className='col-6' style={{ marginTop: '-60px' }}>
+                        <XucXac xucXac={xucXac[1].url} />
+                    </div>
+                    <div className='col-6' style={{ marginTop: '-60px' }}>
+                        <XucXac xucXac={xucXac[2].url} />
+                    </div>
                 </div>
-                <div className='col-6'>
-                    <XucXac xucXac={xucXac[1].url} />
-                </div>
-                <div className='col-6'>
-                    <XucXac xucXac={xucXac[2].url} />
+                <div className='mt-4'>
+                    <button className='btn btn-success' style={{ padding: '10px 30px' }} onClick={handleXoc}>XÓC</button>
                 </div>
             </div>
 
-            <div className='text-center mt-4'>
-                <button className='btn btn-success' onClick={handleXoc}>XÓC</button>
-            </div>
         </div>
     )
 }

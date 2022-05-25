@@ -90,8 +90,8 @@ label { margin-right: 10px; }
 
 .circle {
   background-color: #fff;
-  width: 360px;
-  height: 360px;
+  width: 350px;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,4 +101,52 @@ label { margin-right: 10px; }
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.img_xucxac {
+  width: 70px;
+}
+
+/* responsive */
+@media only screen and (max-width: 46.1875em) {
+  .circle {
+    width: 200px;
+    height: 200px;
+    
+  }
+  .img_xucxac {
+    width: 50px;
+  }
+  
+  .tangGiam {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+}
+
+
+/* Tablet: width >= 740px and width < 1024px */
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+   
+}
+
+
+/* Mobile + tablet */
+
+@media only screen and (max-width: 63.9375em) {
+  .game {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dsXucXac {
+    justify-content: center;
+    margin-top: 40px;
+  }
+ 
+  .heading_bctc {
+    font-size: 42px !important;
+  }
 }

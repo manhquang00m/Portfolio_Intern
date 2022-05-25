@@ -12,9 +12,9 @@ export default function DiemCuoc() {
     return (
         <div className='text-center'>
             <div className='row pt-3 justify-content-center'>
-                <h1 style={{ color: '#ec1c24', fontSize: '60px', textShadow: '-3px 0 white, 0 1px white, 1px 0 white, 0 -1px white' }}>TRÒ CHƠI BẦU CUA TÔM CÁ</h1>
+                <h1 className='heading_bctc' style={{ color: '#ec1c24', fontSize: '60px', textShadow: '-3px 0 white, 0 1px white, 1px 0 white, 0 -1px white' }}>TRÒ CHƠI BẦU CUA TÔM CÁ</h1>
 
-                <div className='col-4 reward'>
+                <div className='col-6 col-lg-3 reward'>
                     <h6>Tiền Thưởng : <span>{tienThuong} $</span></h6>
                 </div>
             </div>

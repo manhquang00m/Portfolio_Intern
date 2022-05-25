@@ -1,0 +1,10 @@
+@media only screen and (max-width: 46.1875em) {
+    .btn-wrap {
+        margin: 20px 0 0 -4px ;
+    }
+    .inputBtn {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+  }
+  

@@ -5,6 +5,7 @@ const stateVeFilm = {
 const BaiTapDatFilm = (state = stateVeFilm, action) => {
     switch (action.type) {
         case 'CHON_SO_GHE': {
+            console.log(action.soGhe)
             let VeFilmUpdate = { ...state.VeFilm }
             let indexTrungGhe = VeFilmUpdate.soGhe.findIndex(item => item === action.soGhe)
             if (indexTrungGhe >= 0) {
@@ -13,7 +14,6 @@ const BaiTapDatFilm = (state = stateVeFilm, action) => {
             } else {
                 VeFilmUpdate.soGhe.push(action.soGhe)
             }
-            VeFilmUpdate.soGhe.push(action.soGhe)
             state.VeFilm = VeFilmUpdate
             return { ...state }
         }
